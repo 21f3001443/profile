@@ -1,0 +1,11 @@
+name: Testing
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    steps:
+      - name: 21f3001443@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
